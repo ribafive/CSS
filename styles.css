@@ -1,0 +1,53 @@
+.h1-vermelho{
+    color:rgb(155, 21, 21);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.container{
+    background-color: black;
+    color: blanchedalmond;
+    
+    width: 80%; /*Pode ser usado em porcentagem ou valores, ex: 3px*/
+
+    margin: auto;
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 2px;
+    /*border: 3px solid rebeccapurple;A cor também pode ser dada por hexadecimal*/
+    border-bottom: 20px solid blueviolet;
+    border-top: 15px solid goldenrod;
+    border-left: 30px ridge blue;
+    border-right: 30px groove aquamarine;
+}
+.main-aside ul{
+    list-style: none;
+    text-align: center;
+
+}
+.main-aside h2{
+    text-align: center;
+}
+.main-aside h2:hover{
+    color:pink;
+    cursor: pointer;
+    
+}
+
+.main-aside ul a{ /*Meche nas propriedades do link, estiliza*/
+    text-decoration: none;
+    color: black;
+}
+
+.main-aside ul a:hover{/*Meche nas propriedades do link após passar o mouse... estiliza*/
+    text-decoration: none;
+    color:red;
+}
+.main-aside ul a:visited{
+    color: green;
+}
